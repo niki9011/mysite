@@ -25,8 +25,8 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      background-color: #f5f5f5;
-      margin-right: 20px;
+      background-color: #fffb00;
+      margin-right: 5px;
     }
 
     .nav-items a {
@@ -95,15 +95,15 @@
     .achievements .work i {
       width: fit-content;
       font-size: 50px;
-      color: #333333;
+      color: #e095ff;
       border-radius: 50%;
-      border: 2px solid #333333;
+      border: 2px solid green;
       padding: 12px;
     }
 
     .achievements .work .work-heading {
       font-size: 20px;
-      color: #333333;
+      color: rgb(0, 0, 11);
       text-transform: uppercase;
       margin: 10px 0;
     }
