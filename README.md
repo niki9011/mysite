@@ -1,2 +1,2 @@
 # mysite
-<img src="/static/images/me.jpg" alt="me">
+<img src="/static/images/mysite.png" alt="me">
