@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block page_content %}
+    {% load static %}
+
+<main>
+    <div class="intro">
+      <h1>HI, I AM NIKOLAY.</h1>
+      <p>Welcome to my portfolio.</p>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading">Projects</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Skills</p>
+      </div>
+
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>I’m a computer programmer who is passionate about writing code, solving problems, automating and building software.</p>
+      </div>
+      <img src="/static/images/me.jpg" alt="me">
+    </div>
+  </main>
+
+ {% endblock %}

@@ -1,0 +1,60 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Starts Head Section -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple HTML HomePage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/homepage.css">
+
+</head>
+<!-- End Head Section -->
+
+<!-- Starts Navbar Section -->
+<body>
+  <header class="header">
+    <a href="#" class="logo">Python Developer</a>
+    <nav class="nav-items">
+      <a href="{% url 'homepage' %}">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <!-- End Navbar Section -->
+
+<!-- Starts Main Section -->
+<main>
+    {% block page_content %}
+    {% endblock %}
+</main>
+<!-- End Main Section -->
+
+  <!-- Starts Footer Section -->
+<footer class="footer">
+    <div class="copy">&copy; 2023 Nikolay Videnov</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="{% url 'homepage' %}">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="https://github.com/niki9011"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nikolay-videnov-968648239/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/nikolai.videnov/"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+<!-- End Footer Section -->
+
+</body>
+
+</html>
