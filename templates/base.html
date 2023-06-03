@@ -19,11 +19,12 @@
 <!-- Starts Navbar Section -->
 <body>
   <header class="header">
-    <a href="#" class="logo">Python Developer</a>
+    <a href="{% url 'homepage' %}" class="logo">Python Developer</a>
     <nav class="nav-items">
       <a href="{% url 'homepage' %}">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="{% url 'about' %}">About</a>
+      <a href="{% url 'certifications' %}">Certifications</a>
+      <a href="{% url 'contact' %}">Contact</a>
     </nav>
   </header>
   <!-- End Navbar Section -->
@@ -32,25 +33,19 @@
 <main>
     {% block page_content %}
     {% endblock %}
+
+{% block page_contact %}
+    {% endblock %}
+
+{% block page_about %}
+    {% endblock %}
+
 </main>
 <!-- End Main Section -->
 
   <!-- Starts Footer Section -->
 <footer class="footer">
     <div class="copy">&copy; 2023 Nikolay Videnov</div>
-    <div class="bottom-links">
-      <div class="links">
-        <span>More Info</span>
-        <a href="{% url 'homepage' %}">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-      <div class="links">
-        <span>Social Links</span>
-        <a href="https://github.com/niki9011"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/nikolay-videnov-968648239/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/nikolai.videnov/"><i class="fab fa-facebook"></i></a>
-      </div>
     </div>
   </footer>
 <!-- End Footer Section -->
