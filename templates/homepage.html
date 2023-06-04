@@ -5,7 +5,7 @@
 <main>
     <div class="intro">
 
-{#<marquee><h1>HI, I AM NIKOLAY.</h1></marquee>#}
+<marquee><h1>HI, I AM NIKOLAY.</h1></marquee>
         <marquee
   direction="down"
   width="350"
@@ -15,8 +15,7 @@
   <marquee behavior="alternate"> <p>Welcome to my portfolio.</p></marquee>
 </marquee>
 
-{#      <h1>HI, I AM NIKOLAY.</h1>#}
-{#      <p>Welcome to my portfolio.</p>#}
+
     </div>
     <div class="achievements">
       <div class="work">
@@ -26,7 +25,7 @@
       </div>
 
       <div class="work">
-          <a class="btn btn-large btn-primary logout" href="#">
+          <a class="btn btn-large btn-primary logout" href="{% url 'skills' %}">
             <i class="fas fa-skiing"></i>
             <p class="work-heading">Skills</p>
 
@@ -36,14 +35,14 @@
 {#        <i class="fa fa-sign-out" aria-hidden="true">Logout</i>#}
 {#</a>#}
 
-    </div>
-    <div class="about-me">
-      <div class="about-me-text">
-        <h2>About Me</h2>
-        <p>I’m a computer programmer who is passionate about writing code, solving problems, automating and building software.</p>
-      </div>
-      <img src="/static/images/me.jpg" alt="me">
-    </div>
+{#    </div>#}
+{#    <div class="about-me">#}
+{#      <div class="about-me-text">#}
+{#        <h2>About Me</h2>#}
+{#        <p>I’m a computer programmer who is passionate about writing code, solving problems, automating and building software.</p>#}
+{#      </div>#}
+{#      <img src="/static/images/me.jpg" alt="me">#}
+{#    </div>#}
   </main>
 
  {% endblock %}

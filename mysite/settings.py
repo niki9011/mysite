@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'about',
     'certifications',
     'contact',
+    'skills',
 
 ]
 
