@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="add skills">
+    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="add picture contact">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/homepicture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/skills.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/skills.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/niki9011/PycharmProjects/mysite-django/static/images",
+    "last_opened_file_path": "/home/niki9011/PycharmProjects/mysite-django",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -129,7 +134,11 @@
       <workItem from="1685821776768" duration="10264000" />
       <workItem from="1685834897837" duration="1540000" />
       <workItem from="1685887683610" duration="2694000" />
-      <workItem from="1685901925621" duration="5501000" />
+      <workItem from="1685901925621" duration="6451000" />
+      <workItem from="1685990548540" duration="5513000" />
+      <workItem from="1686032743869" duration="32000" />
+      <workItem from="1686033638158" duration="18000" />
+      <workItem from="1686383050095" duration="6948000" />
     </task>
     <task id="LOCAL-00001" summary="add my website">
       <created>1685720591752</created>
@@ -208,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685907149977</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add picture contact">
+      <created>1685908468727</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685908468727</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add picture contact">
+      <created>1685908526156</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685908526156</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +246,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="homepage.html update" />
     <MESSAGE value="add skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="add skills" />
+    <MESSAGE value="add picture contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="add picture contact" />
   </component>
 </project>

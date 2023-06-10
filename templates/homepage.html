@@ -1,39 +1,71 @@
 {% extends 'base.html' %}
 {% block page_content %}
     {% load static %}
-
-<main>
-    <div class="intro">
-
-<marquee><h1>HI, I AM NIKOLAY.</h1></marquee>
-        <marquee
-  direction="down"
-  width="350"
-  height="200"
+{##}
+{#<main>#}
+{#    <div class="intro">#}
+{##}
+{#<marquee><h1>HI, I AM NIKOLAY.</h1></marquee>#}
+{#        <marquee#}
+{#  direction="down"#}
+{#  width="350"#}
+{#  height="200"#}
 {#  behavior="alternate"#}
 {#  style="border:moccasin">#}
-  <marquee behavior="alternate"> <p>Welcome to my portfolio.</p></marquee>
-</marquee>
+{#  <marquee behavior="alternate"> <p>Welcome to my portfolio.</p></marquee>#}
+{#</marquee>#}
 
-
-    </div>
-    <div class="achievements">
-      <div class="work">
-          <a class="btn btn-large btn-primary logout" href="https://softuni.bg/blog/success-story-2023-un-project?fbclid=IwAR1Rs-pR9PkD2jYXF-oByjj8nYHNpkw4fIPYyRQqMBdeSrIle7DepSL12nw#">
-            <i class="fas fa-atom" aria-hidden="true"></i>
-            <p class="work-heading">Projects</p>
-      </div>
-
-      <div class="work">
-          <a class="btn btn-large btn-primary logout" href="{% url 'skills' %}">
-            <i class="fas fa-skiing"></i>
-            <p class="work-heading">Skills</p>
-
-
-
-{#        <a class="btn btn-large btn-primary logout" href="#">#}
-{#        <i class="fa fa-sign-out" aria-hidden="true">Logout</i>#}
+{##}
+{#    </div>#}
+{##}
+{##}
+{#    <div class="achievements">#}
+{#      <div class="work">#}
+{#          <a class="btn btn-large btn-primary logout" href="https://softuni.bg/blog/success-story-2023-un-project?fbclid=IwAR1Rs-pR9PkD2jYXF-oByjj8nYHNpkw4fIPYyRQqMBdeSrIle7DepSL12nw#">#}
+{#            <i class="fas fa-atom" aria-hidden="true"></i>#}
+{#            <p class="work-heading">Projects</p>#}
+{#      </div>#}
+{##}
+{##}
+{##}
+{#      <div class="work">#}
+{#          <a class="btn btn-large btn-primary logout" href="{% url 'skills' %}">#}
+{#            <i class="fas fa-skiing"></i>#}
+{#            <p class="work-heading">Skills</p>#}
+{#               <div class="work">#}
+{##}
+{#      </div>#}
 {#</a>#}
+{##}
+{#              <div class="about-me">#}
+{#      <div class="about-me-text">#}
+{#        <h2>About Me</h2>#}
+{#        <p>I’m a computer programmer who is passionate about writing code, solving problems, automating and building software.</p>#}
+{#      </div>#}
+{##}
+{#      <img src="/static/images/me.jpg" alt="me">#}
+{#    </div>#}
+{##}
+{#</a>#}
+
+{#    <div class="about-me">#}
+{#      <div class="about-me-text">#}
+{#        <h2>About Me</h2>#}
+{#        <p>I’m a computer programmer who is passionate about writing code, solving problems, automating and building software.</p>#}
+{#      </div>#}
+{##}
+{#      <img src="/static/images/me.jpg" alt="me">#}
+{#    </div>#}
+
+{#          <div class="about-me">#}
+{#      <div class="about-me-text">#}
+{#           <img src="/static/images/me.jpg" alt="me">#}
+{#        <h2>About Me</h2>#}
+{#        <p>I am a web developer and I love to create websites. I am a very good developer and I am always looking for new projects. I am a very good developer and I am always looking for new projects.</p>#}
+{#      </div>#}
+{#      <img src="/static/images/me.jpg" alt="me">#}
+{#    </div>#}
+
 
 {#    </div>#}
 {#    <div class="about-me">#}
@@ -43,6 +75,75 @@
 {#      </div>#}
 {#      <img src="/static/images/me.jpg" alt="me">#}
 {#    </div>#}
+
+
+{#    <div class="achievements">#}
+{#      <div class="work">#}
+{#        <i class="fas fa-atom"></i>#}
+{#        <p class="work-heading">Projects</p>#}
+{#        <p class="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>#}
+{#      </div>#}
+{#      <div class="work">#}
+{#        <i class="fas fa-skiing"></i>#}
+{#        <p class="work-heading">Skills</p>#}
+{#        <p class="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>#}
+{#      </div>#}
+{#      <div class="work">#}
+{#        <i class="fas fa-ethernet"></i>#}
+{#        <p class="work-heading">Network</p>#}
+{#        <p class="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>#}
+{#      </div>#}
+{#    </div>#}
+{#    <div class="about-me">#}
+{#      <div class="about-me-text">#}
+{#        <h2>About Me</h2>#}
+{#        <p>I am a web developer and I love to create websites. I am a very good developer and I am always looking for new projects. I am a very good developer and I am always looking for new projects.</p>#}
+{#      </div>#}
+{#      <img src="/static/images/me.jpg" alt="me">#}
+{#    </div>#}
+{#  </main>#}
+    <main>
+    <div class="intro">
+
+<marquee><h1>HI, I AM NIKOLAY.</h1></marquee>
+        <marquee
+  direction="down"
+  width="350"
+  height="200"
+  behavior="alternate"
+  style="border:moccasin">
+  <marquee behavior="alternate"> <p>Welcome to my portfolio.</p></marquee>
+</marquee>
+
+    </div>
+
+    <div class="achievements">
+      <div class="work">
+{#          <a class="" href="{% url 'skills' %}">#}
+          <button onclick="window.location.href='https://sdsn.bg/bg/';"><i class="fas fa-atom" ></i></button>
+
+{#        <i class="fas fa-atom"></i>#}
+        <p class="work-heading">Project</p>
+        <p class="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+      </div>
+      <div class="work">
+          <button onclick="window.location.href='{% url 'skills' %}';"><i class="fa fa-skiing" ></i></button>
+        <p class="work-heading" >Skills</p>
+        <p class="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
+      </div>
+      <div class="work">
+          <button onclick="window.location.href='https://softuni.bg/blog/success-story-2023-un-project?utm_source=linkedin&utm_medium=organic&utm_campaign=success-stories&utm_term=blog&utm_content=%D0%BE%D0%BE%D0%BD#';"><i class="fa fa-newspaper" ></i></button>
+        <p class="work-heading">Interview</p>
+        <p class="work-text">SoftUni students realized a project for the United Nations.</p>
+      </div>
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>I am a web developer and I love to create websites. I am a very good developer and I am always looking for new projects. I am a very good developer and I am always looking for new projects.</p>
+      </div>
+      <img src="/static/images/me.jpg" alt="me">
+    </div>
   </main>
 
  {% endblock %}
