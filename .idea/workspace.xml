@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="add picture contact">
+    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="update project and skills">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/homepicture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/skills.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/skills.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/certifications.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/certifications.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/homepicture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/homepicture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/homepicture1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/skills.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/skills.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/certifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/certifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +38,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
         <option value="CSS File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,26 +56,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/niki9011/PycharmProjects/mysite-django",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/niki9011/PycharmProjects/mysite-django&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/skills" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.mysite-django">
@@ -138,7 +156,17 @@
       <workItem from="1685990548540" duration="5513000" />
       <workItem from="1686032743869" duration="32000" />
       <workItem from="1686033638158" duration="18000" />
-      <workItem from="1686383050095" duration="6948000" />
+      <workItem from="1686383050095" duration="7149000" />
+      <workItem from="1686403029133" duration="812000" />
+      <workItem from="1686404024295" duration="1491000" />
+      <workItem from="1686420866960" duration="1495000" />
+      <workItem from="1686422381696" duration="8022000" />
+      <workItem from="1686431427938" duration="4696000" />
+      <workItem from="1686476143179" duration="316000" />
+      <workItem from="1686493873401" duration="1795000" />
+      <workItem from="1686517072747" duration="23000" />
+      <workItem from="1686517114778" duration="2438000" />
+      <workItem from="1686519583095" duration="4501000" />
     </task>
     <task id="LOCAL-00001" summary="add my website">
       <created>1685720591752</created>
@@ -231,7 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685908526156</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update project and skills">
+      <created>1686394663566</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686394663566</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update project and skills">
+      <created>1686394669283</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686394669283</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +289,7 @@
     <MESSAGE value="homepage.html update" />
     <MESSAGE value="add skills" />
     <MESSAGE value="add picture contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="add picture contact" />
+    <MESSAGE value="update project and skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project and skills" />
   </component>
 </project>

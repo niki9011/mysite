@@ -19,13 +19,15 @@
 <!-- Starts Navbar Section -->
 <body>
   <header class="header">
-    <a href="{% url 'homepage' %}" class="logo">Python Developer</a>
+{#    <img src="/static/images/o.png">#}
+      <a href="{% url 'homepage' %}" class="logo" >Python Developer</a>
     <nav class="nav-items">
       <a href="{% url 'homepage' %}">Home</a>
       <a href="{% url 'about' %}">About</a>
       <a href="{% url 'certifications' %}">Certificates</a>
-      <a href="{% url 'contact' %}">Contact</a>
+      <a href="{% url 'main:contact' %}">Contact</a>
     </nav>
+
   </header>
   <!-- End Navbar Section -->
 
@@ -51,6 +53,9 @@
   <!-- Starts Footer Section -->
 <footer class="footer">
     <div class="copy">&copy; 2023 Nikolay Videnov</div>
+    <a href="https://github.com/niki9011"><i class="fab fa-github fa-2x" style="color:white" ></i></a>
+        <a href="https://www.linkedin.com/in/nikolay-videnov-968648239/"><i class="fab fa-linkedin fa-2x" style="color:white"></i></a>
+        <a href="https://www.facebook.com/nikolai.videnov/"><i class="fab fa-facebook fa-2x" style="color:white"></i></a>
     </div>
   </footer>
 <!-- End Footer Section -->

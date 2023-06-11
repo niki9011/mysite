@@ -1,19 +1,51 @@
 {% extends 'base.html' %}
+{% load crispy_forms_filters %}
 {% block page_contact %}
-    {% load static %}
+{% load static %}
 
 <main>
+<style>
+
+* {box-sizing: border-box;}
+body {font-family: Arial, Helvetica, sans-serif;
+         background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+      }
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{#    <link rel="stylesheet" href="/static/css/contact.css">#}
+
+<!--Contact form-->
+
+	<div style="margin:80px">
+<table>
+
+</div>
+
+
+    <img src="/static/images/contact.png" style="width:20%">
+{#		<h1>Contact</h1>#}
+
+		<form method="post">
+        {% csrf_token %}
+            {{form.as_p}}
+            <button type="submit">Submit</button>
+        </form>
 
     <div class="bottom-links">
-      <div class="links">
-        <span>Social Links</span>
-          <img src="/static/images/contact.png" style="width:100%">
-        <a href="https://github.com/niki9011"><i class="fab fa-github fa-3x" style="color:black"></i></a>
-        <a href="https://www.linkedin.com/in/nikolay-videnov-968648239/"><i class="fab fa-linkedin fa-3x" style="color:#0077b5"></i></a>
-        <a href="https://www.facebook.com/nikolai.videnov/"><i class="fab fa-facebook fa-3x" style="color:#3F51B5"></i></a>
-
+    <div class="bottom-links">
+    <div class="bottom-links">
+{#      <div class="links">#}
+{#        <span>Social Links</span>#}
+{#          <img src="/static/images/main.png" style="width:100%">#}
+{#        <a href="https://github.com/niki9011"><i class="fab fa-github fa-1.5x" style="color:black" ></i></a>#}
+{#        <a href="https://www.linkedin.com/in/nikolay-videnov-968648239/"><i class="fab fa-linkedin fa-1.5x" style="color:#0077b5"></i></a>#}
+{#        <a href="https://www.facebook.com/nikolai.videnov/"><i class="fab fa-facebook fa-1.5x" style="color:#3F51B5"></i></a>#}
       </div>
 
+</table>
 </main>
 
  {% endblock %}
