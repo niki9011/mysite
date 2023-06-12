@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="add readme screen" />
+    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="dell" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -150,7 +149,7 @@
       <workItem from="1686577318500" duration="1277000" />
       <workItem from="1686578619297" duration="6222000" />
       <workItem from="1686585263003" duration="62000" />
-      <workItem from="1686585344000" duration="311000" />
+      <workItem from="1686585344000" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="add my website">
       <created>1685720591752</created>
@@ -341,7 +340,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686585615441</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="dell">
+      <created>1686585687599</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585687599</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add screen website">
+      <created>1686585734740</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585734740</updated>
+    </task>
+    <task id="LOCAL-00030" summary="dell">
+      <created>1686585938210</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585938210</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +370,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add my website" />
     <MESSAGE value="add screenshot homepage" />
-    <MESSAGE value="dell" />
     <MESSAGE value="add page" />
     <MESSAGE value="add pictures" />
     <MESSAGE value="update" />
@@ -363,6 +382,8 @@
     <MESSAGE value="screen add redmi" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="add readme screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="add readme screen" />
+    <MESSAGE value="add screen website" />
+    <MESSAGE value="dell" />
+    <option name="LAST_COMMIT_MESSAGE" value="dell" />
   </component>
 </project>
