@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="screen website">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="add readme screen" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -151,6 +150,7 @@
       <workItem from="1686577318500" duration="1277000" />
       <workItem from="1686578619297" duration="6222000" />
       <workItem from="1686585263003" duration="62000" />
+      <workItem from="1686585344000" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="add my website">
       <created>1685720591752</created>
@@ -299,7 +299,49 @@
       <option name="project" value="LOCAL" />
       <updated>1686585084616</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="screen add redmi">
+      <created>1686585449334</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585449334</updated>
+    </task>
+    <task id="LOCAL-00023" summary="screen add redmi">
+      <created>1686585484073</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585484073</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1686585488850</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585488850</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add readme screen">
+      <created>1686585586905</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585586905</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add readme screen">
+      <created>1686585588652</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585588652</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add readme screen">
+      <created>1686585615441</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585615441</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +360,9 @@
     <MESSAGE value="update project and skills" />
     <MESSAGE value="update homepage.html certifications.html add auto slide" />
     <MESSAGE value="screen website" />
-    <option name="LAST_COMMIT_MESSAGE" value="screen website" />
+    <MESSAGE value="screen add redmi" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="add readme screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme screen" />
   </component>
 </project>
