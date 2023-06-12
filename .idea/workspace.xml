@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="update project and skills">
+    <list default="true" id="bda447f1-ce4c-4681-a7ac-62abdf2aa12f" name="Changes" comment="update homepage.html certifications.html add auto slide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/certifications.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/certifications.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/homepicture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/homepicture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/homepicture1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/skills.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/skills.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/certifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/certifications.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +153,10 @@
       <workItem from="1686493873401" duration="1795000" />
       <workItem from="1686517072747" duration="23000" />
       <workItem from="1686517114778" duration="2438000" />
-      <workItem from="1686519583095" duration="4501000" />
+      <workItem from="1686519583095" duration="4848000" />
+      <workItem from="1686553897307" duration="618000" />
+      <workItem from="1686577318500" duration="1277000" />
+      <workItem from="1686578619297" duration="5095000" />
     </task>
     <task id="LOCAL-00001" summary="add my website">
       <created>1685720591752</created>
@@ -273,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686394669283</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update homepage.html certifications.html add auto slide">
+      <created>1686524307290</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686524307290</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +287,7 @@
     <MESSAGE value="add skills" />
     <MESSAGE value="add picture contact" />
     <MESSAGE value="update project and skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project and skills" />
+    <MESSAGE value="update homepage.html certifications.html add auto slide" />
+    <option name="LAST_COMMIT_MESSAGE" value="update homepage.html certifications.html add auto slide" />
   </component>
 </project>
